@@ -20,7 +20,7 @@ jobs:
       - name: Set up Python version
         uses: actions/setup-python@v1
         with:
-          python-version: '3.9'
+          python-version: '3.8'
 
       - name: Create and start virtual environment
         run: |
@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'clickfunnel'
           slot-name: 'cf'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_096F412A7E354C99BE069C48A9BC5A14 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FF40DCC8DE8C47349198C994445661EB }}
